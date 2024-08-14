@@ -16,6 +16,8 @@ export default function Box2() {
                     flexDirection: 'column', // จัดองค์ประกอบภายในแนวตั้ง
                 }}
             >
+
+                
                 <Typography
                     variant="caption"
                     sx={{
