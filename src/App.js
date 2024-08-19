@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ResponsiveAppBar from './components/Surfaces/appBar';
 import HomePage from './page/homePage';
 import DialogSlide from './components/Feedback/dialog';
+import Footer from './components/Surfaces/footer';
+import Condition from './page/condition';
 
 function App() {
   return (
@@ -13,9 +15,11 @@ function App() {
       <Routes  >
         
         <Route path="/" element={<HomePage />} />
+        <Route path="/Condition" element={<Condition />} />
         <Route path="/DialogSlide" element={<DialogSlide />} />
 
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
