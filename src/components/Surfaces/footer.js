@@ -4,17 +4,7 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-
-import FacebookIcon from '@mui/icons-material/Facebook';
-import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
-import EmailIcon from '@mui/icons-material/Email';
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import FmdGoodIcon from '@mui/icons-material/FmdGood';
-
 
 import logo1 from "../Photo/logo2.png";
 import line from "../Photo/line.png";
@@ -22,14 +12,6 @@ import gmail from "../Photo/gmail.png";
 import phone from "../Photo/phone.png";
 import facebook from "../Photo/facebook.png";
 import location from "../Photo/location.png";
-
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-}));
 
 function Copyright() {
     return (

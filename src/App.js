@@ -7,6 +7,7 @@ import HomePage from './page/homePage';
 import DialogSlide from './components/Feedback/dialog';
 import Footer from './components/Surfaces/footer';
 import Condition from './page/condition';
+import HowToRent from './page/howToRent';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         
         <Route path="/" element={<HomePage />} />
         <Route path="/Condition" element={<Condition />} />
+        <Route path="/HowToRent" element={<HowToRent />} />
+
         <Route path="/DialogSlide" element={<DialogSlide />} />
 
       </Routes>
