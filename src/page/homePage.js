@@ -22,6 +22,7 @@ import Car11 from "../components/CardCar/car_11";
 import Car12 from "../components/CardCar/car_12";
 import Car13 from "../components/CardCar/car_13";
 import Car14 from "../components/CardCar/car_14";
+import DialogSlide from "../components/Feedback/dialog";
 
 export default function HomePage() {
   const Item = styled(Paper)(({ theme }) => ({
@@ -30,7 +31,7 @@ export default function HomePage() {
 
   return (
     <React.Fragment>
-      {/* <DialogSlide/> */}
+      <DialogSlide/>
       <Container maxWidth="mg">
         <Box>
           <Grid
