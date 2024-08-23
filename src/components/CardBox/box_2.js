@@ -20,7 +20,6 @@ const sx1 = {
     xl: "40px", // ขนาดหน้าจอใหญ่มาก
   },
   textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
- 
   animation: "fadeIn 4s ease-in-out forwards",
   animationDelay: "1s",
   transition: "color 0.3s ease-in-out, transform 0.3s ease-in-out",

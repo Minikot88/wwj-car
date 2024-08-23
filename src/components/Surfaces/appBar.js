@@ -15,9 +15,6 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import logo1 from "../Photo/logo8.png";
-import { Paper } from "@mui/material";
-import AdbIcon from "@mui/icons-material/Adb";
-import AbcIcon from "@mui/icons-material/Abc";
 
 const styles = (isActive) => ({
   p: 1,

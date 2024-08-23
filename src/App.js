@@ -1,30 +1,28 @@
-import './App.css';
+import "./App.css";
 import React from "react";
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import ResponsiveAppBar from './components/Surfaces/appBar';
-import HomePage from './page/homePage';
-import DialogSlide from './components/Feedback/dialog';
-import Footer from './components/Surfaces/footer';
-import Condition from './page/condition';
-import HowToRent from './page/howToRent';
+import ResponsiveAppBar from "./components/Surfaces/appBar";
+import HomePage from "./page/homePage";
+import DialogSlide from "./components/Feedback/dialog";
+import Footer from "./components/Surfaces/footer";
+import Condition from "./page/condition";
+import HowToRent from "./page/howToRent";
+import Contact from "./page/contact";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
-      <ResponsiveAppBar/>
-      <Routes  >
-        
+      <ResponsiveAppBar />
+      <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Condition" element={<Condition />} />
         <Route path="/HowToRent" element={<HowToRent />} />
+        <Route path="/Contact" element={<Contact />} />
 
         <Route path="/DialogSlide" element={<DialogSlide />} />
-
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }
-
-export default App;
